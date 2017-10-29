@@ -9,7 +9,7 @@ $resp = json_decode($resp,true);
 $count = count($resp);
 if(isset($round)){
     $round = intval($round);
-        $count  = ceil($count/pow(10,$round)) * pow(10,$round);;
+        $count  = ceil($count/pow(10,$round)) * pow(10,$round);
 }
 
 echo $count;
